@@ -1,4 +1,4 @@
-# <p style="text-align: center;">🗿 tibl</p>
+# <p style="text-align: center;">🗿 [tibl](index.html)</p>
 
 tibl is a bad blog "engine" that currently consists on poorly defined js functions that get markdown posts from Github and renders them client-side.
 
