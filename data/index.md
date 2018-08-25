@@ -4,7 +4,8 @@ tibl is a bad blog "engine" that currently consists on poorly defined js functio
 
 tibl is very minimal: even the post listing is in markdown, and is done by hand. In the near future tibl may get a cli tool to manage the post listing more programmatically.
 
-See tibl on [Github](https://github.com/Uinelj/tibl)
+See tibl on [Github](https://github.com/Uinelj/tibl).
+
 _toc generation may be implemented soontm_
 
 1. [Installation](#Installation)
