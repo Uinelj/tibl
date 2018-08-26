@@ -5,6 +5,7 @@
 1. [See it in action](#action)
 1. [Features](#features)
 1. [Install](#install)
+1. [Git commands](#git)
 
 ## <a name="action"></a>See it in action
 
@@ -41,7 +42,7 @@ cd tibl-cli
 pip install --user .
 ```
 
-## Git commands
+## <a name="git"></a>Git commands
 
 There are 4 git-related commands : `changes`, `link`, `push` and `pull`.
 
