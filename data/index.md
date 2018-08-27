@@ -1,3 +1,6 @@
+---
+title: tibl home
+---
 # <p style="text-align: center;">[🗿 tibl home](index.html)</p>
 
 If you're reading this tibl shoud be properly "installed". 

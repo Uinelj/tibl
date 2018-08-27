@@ -1,5 +1,7 @@
-# Things !
-<a name="top"></a>
+---
+title: Things !
+---
+# <a name="top"></a> Things !
 * [Headings](#Headings)
 * [Paragraphs](#Paragraphs)
 * [Blockquotes](#Blockquotes)
