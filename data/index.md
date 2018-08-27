@@ -1,130 +1,41 @@
-# <p style="text-align: center;">🗿 [tibl](index.html)</p>
+# <p style="text-align: center;">[🗿 tibl home](index.html)</p>
 
-tibl is a bad blog "engine" that currently consists on poorly defined js functions that get markdown posts from Github and renders them client-side.
+If you're reading this tibl shoud be properly "installed". 
 
-tibl is very minimal: even the post listing is in markdown, and is done by hand. In the near future tibl may get a cli tool to manage the post listing more programmatically.
+*This stub page is your index, that you can edit in `data/index.md`.*
 
-See tibl on [Github](https://github.com/Uinelj/tibl).
+1. [Adding content](#adding)
+	1. [Adding a post (manual)](#manual)
+	1. [Adding a post (tibl-cli)](#tibl-cli)
+1. [More information](#more)
 
-_toc generation may be implemented soontm_
+## <a name="adding"></a>Adding content
 
-1. [Installation](#Installation)
-    - Github Pages
-    - Web server
-2. [Usage](#Usage)
-    - Add topics/posts
-3. [Files](#Files)
-4. [Customisation](#Customisation)
-    - Themes
-    - Nav/Footer
-5. [Conclusion](#Conclusion)
+You have two options there : a manual one that requires nothing but a file browser/text editor, and a more automated one that requires [tibl-cli](https://ujj.space/tibl/t.html?p=tibl-cli).
 
-## <a name="Installation"></a>Installation
+Feel free to edit all that's in the `data/` directory. It's all your content: post listing, navbar, footer, and posts/pages.
 
-Since tibl is very minimal, it doesn't require anything else than something which is able to serve html.
+**Posts vs. Pages**: 
+> - A page is a hidden post. It won't be automatically added to the post listing. You can use pages to upload unpublished posts, or to do real pages that you may link in the `nav.md` or `foot.md` files, that represent the navbar and the footer (duh).
+> - A post named `foo.md` will be reachable at the address `yoursite.com/t.html?t=foo`
+> - A page named `_bar.md` will be reachable at the address `yoursite.com/t.html?p=bar`
 
-#### Github Pages
+#### <a name="manual"></a>Adding a post (manual)
 
-1. Fork this repository
-2. Enable Github Pages
-3. Go to your Github Pages URL
+1. Create `data/my-post.md`
+- Add some Markdown formatted content (HTML works too)
+- Add your post into the post listing in `database.md` following this pattern : 
 
-#### On a classic web server
-
-TODO
-
-## <a name="Usage"></a>Usage
-
-Currently using tibl may appear a bit cumbersome.
-I'd like to provide some client editor, using client-side Github oauth login plus a tiny markdown editor someday, but I don't know if it's possible.
-
-**TLDR:** `t.html?t=sth` renders `data/topics/sth.md`, `t.html?p=sth` renders `data/topics/_sth.md`, `t.html` alone renders `database.md`.
-
-### Adding topics/posts
-
-I call them topic because why not but eh
-
-* Your posts live in `data/topics` (you can rename topics posts if you edit the lines `27` and `29` of `t.html` accordingly. I'll provide a config var someday).
-
-* Posts that begin with an underscore (`_`), well. They begin with an underscore. They are pages, and they won't be taken into account when building the post listing (when such a tool exists). It's for About/Contact pages, for example.
-
-* Write your post as you like:
-  ```markdown
-  # Hello ! 
-
-  Hello and welcome to my tiny tibl site. 
-  It's fresh and quiet here.
-
-  I like **markdown**.
-
-  > See you !
+  ```
+  *[My new post](t.html?t=my-post)
   ```
 
-* Add your post into the `database.md` file: 
+#### <a name="tibl-cli"></a>Adding a post (tibl-cli)
 
-    ```
-    # Posts
+1. Be in your site's root (where you have `index.html`, `t.html`)
+- Run `tibl new` and follow the prompts
+- Add some Markdown formatted content (HTML works too)
 
-    * [Hello !][hello]
-    * [Blog post about things][things]
+## <a name="more"></a>More information
 
-    [hello]: t.html?p=hello
-    [things]: t.html?p=things
-    ```
-
-* `t.html?p=hello` will link to `data/topics/hello.md`. tibl will add `.md` at the end, so don't add it in the `database.md` or it won't work.
-* Here's what your `data` file should look like:
-   ```bash
-   data/
-        topics/
-            hello.md # <- Your new post
-            things.md
-        database.md # <- Edited database
-        foot.md
-        index.md
-        nav.md
-   ``` 
-## <a name="Files"></a>Files
-
-   ```bash
-   css/ #<- Make tibl bearable for the eyes
-        normalize.css
-        sakura.css # <- Using oxalorg/sakura as the classless theme
-   data/ # <- All of your post content
-        topics/ # <- Your posts
-            hello.md
-            things.md
-            ...
-        database.md # <- Post listing
-        foot.md # <- footer
-        index.md # <- index page
-        nav.md # <- nav bar
-    js/
-        tibl.js # <- tibl javascript functions
-        config.js # <- config array, currently empty :]
-    index.html # <- Renders the index. Similar to t.html?p=index, I guess
-    t.html # <- Renders pages and topics.
-   ``` 
-
-## <a name="Customization"></a>Customization
-
-### Themes
-
-  Just use classless themes.
-
-  _Note: I just tested Sakura._
-
-  - [Sakura](https://oxal.org/projects/sakura/demo/)
-  - [Marx](https://mblode.github.io/marx/)
-  - [Bare CSS](http://barecss.com)
-  - [classless](https://classless.alhur.es/themes/)
-
-### nav/footer
-
-  I use a markdown nav and footer but if it's not ok for you use html.
-
-  Just change `data/{nav, foot}.md` to your convinience.
-
-## <a name="Conclusion"></a>Conclusion
-
-  Just use something else
+For more information checkout tibl's [website](https://ujj.space/tibl).
