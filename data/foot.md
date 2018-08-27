@@ -1,3 +1,3 @@
 ---
-<span style="float: right">🐢ed by [tibl](https://ujj.space/tibl)</span>
+<span style="float: right">[<img src="data/img/tibl.png">](https://ujj.space/tibl)</span>
 
