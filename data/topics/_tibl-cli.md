@@ -1,3 +1,6 @@
+---
+title: tibl-cli
+---
 # <p style="text-align: center;">🗿 [tibl-cli](https://github.com/Uinelj/tibl)</p>
 
 [tibl-cli](https://github.com/Uinelj/tibl-cli) is a [tibl](https://github.com/Uinelj/tibl) python command line interface.
