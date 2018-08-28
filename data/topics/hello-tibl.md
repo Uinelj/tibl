@@ -42,7 +42,7 @@ Let's rewind what was added/done in these last 5 days :
  
  ### tibl
  
- The only thing tibl misses right now is the [After Dark]() theme.
+ The only thing tibl misses right now is the [After Dark](https://git.habd.as/comfusion/after-dark) theme.
  When it will be ported, I'll tag `tibl - v0.1 "bad"` and begin to see how to better package and organize everything.
  We'll talk yarn, babel, webpack, blah blah blah.
  After that, two important issues will be [highlighting](https://github.com/Uinelj/tibl/issues/6) and [table of contents](https://github.com/Uinelj/tibl/issues/16).
