@@ -14,11 +14,11 @@ There's a command-line interface named [tibl-cli](https://ujj.space/tibl/t?p=tib
 
 ### Using [tibl-cli](https://ujj.space/tibl/t?p=tibl-cli)
 
-- Install the latest version of the tool : `pip install tibl-cli`. You need Python 3.5+
-- Create a tibl site : `tibl create`
-- `cd` into your new site
-- Create your first post : `tibl new`
-- Watch the results : `tibl serve`
+>`pip install --user tibl-cli` (Python 3.5+)
+
+<p align="center">
+  <img src="data/tibl-cli.svg" />
+</p>
 
 ### Manually
 
