@@ -2,15 +2,19 @@
 title: tibl > home
 ---
 
+![tibl](data/img/tibl_400x400.png)
+
 [tibl](https://ujj.space/tibl) is a tiny blog/site engine written in js that runs client-side.
 
-tibl is very minimal: even the post listing is in markdown, and is done by hand. A CLI tool named [tibl-cli](https://ujj.space/tibl/t?p=tibl-cli) is available and makes creating tibl sites and blogposts easy.
+It has been created with GitHub Pages in mind, but it should work on GitLab Pages / any server thing that can serve http just right.
+
+tibl is very minimal: even the post listing is in markdown, and is done by hand. A CLI tool named [tibl-cli](https://ujj.space/tibl/t?p=tibl-cli) is available and makes managing your tibl site easier.
 
 ## Installation
 
 ### Using [tibl-cli](https://ujj.space/tibl/t?p=tibl-cli)
 
-- Install the latest version : `pip install tibl-cli`. You need Python 3.5+
+- Install the latest version of the tool : `pip install tibl-cli`. You need Python 3.5+
 - Create a tibl site : `tibl create`
 - `cd` into your new site
 - Create your first post : `tibl new`
@@ -21,3 +25,11 @@ tibl is very minimal: even the post listing is in markdown, and is done by hand.
 - Clone the repository : `git clone https://github.com/Uinelj/tibl`
 - Create posts and pages in `data/topics` (pages begin with an `_`)
 - Edit `database.md` to update the post listing to your convinience
+
+## Features
+
+- Not so much
+- Has posts and pages
+- Really that's it
+
+## Use
