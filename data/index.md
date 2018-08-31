@@ -44,7 +44,7 @@ tibl structure is very simple :
 │   ├── normalize.css
 │   └── sakura.css
 ├── data
-│   ├── database.md # Post listing. Edited by tibl create
+│   ├── database.md # Post listing. Edit it when adding posts
 │   ├── foot.md # Footer
 │   ├── img # Images
 │   │   └── tibl.png
