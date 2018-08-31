@@ -37,4 +37,27 @@ There's a command-line interface named [tibl-cli](https://ujj.space/tibl/t?p=tib
 tibl structure is very simple : 
 
 ```bash
+.
+├── LICENSE
+├── README.md
+├── css
+│   ├── normalize.css
+│   └── sakura.css
+├── data
+│   ├── database.md # Post listing. Edited by tibl create
+│   ├── foot.md # Footer
+│   ├── img # Images
+│   │   └── tibl.png
+│   ├── index.md # Homepage
+│   ├── nav.md # Navbar
+│   └── topics # Put posts and pages here
+│       ├── _about.md # Sample page
+│       └── things.md # Sample post
+├── index.html # tibl index.html
+├── js # js things
+│   ├── config.js
+│   ├── lib
+│   │   └── js-yaml.min.js
+│   └── tibl.js
+└── t.html # Post/page display
 ```
