@@ -8,7 +8,7 @@ title: tibl > home
 
 It has been created with GitHub Pages in mind, but it should work on GitLab Pages / any server thing that can serve http just right.
 
-tibl is very minimal: even the post listing is in markdown, and is done by hand. A CLI tool named [tibl-cli](https://ujj.space/tibl/t?p=tibl-cli) is available and makes managing your tibl site easier.
+There's a command-line interface named [tibl-cli](https://ujj.space/tibl/t?p=tibl-cli) that you can use to make things easier if you want.
 
 ## Installation
 
@@ -32,4 +32,9 @@ tibl is very minimal: even the post listing is in markdown, and is done by hand.
 - Has posts and pages
 - Really that's it
 
-## Use
+## Adding content
+
+tibl structure is very simple : 
+
+```bash
+```
