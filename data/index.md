@@ -2,7 +2,7 @@
 title: tibl > home
 ---
 
-![tibl](data/img/tibl_400x400.png)
+![tibl](data/img/tibl_100x100.png)
 
 [tibl](https://ujj.space/tibl) is a tiny blog/site engine written in js that runs client-side.
 
