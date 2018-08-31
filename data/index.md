@@ -17,7 +17,7 @@ There's a command-line interface named [tibl-cli](https://ujj.space/tibl/t?p=tib
 >`pip install --user tibl-cli` (Python 3.5+)
 
 <p align="center">
-  <img src="data/tibl-cli.svg" />
+  <img src="data/img/tibl-cli.svg" />
 </p>
 
 ### Manually
